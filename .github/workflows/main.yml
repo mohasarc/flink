@@ -33,5 +33,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-          ls
+          mvn test-compile -pl flink-connectors/flink-connector-hive -am
